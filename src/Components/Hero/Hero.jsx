@@ -28,14 +28,14 @@ const ImageList=[
 const Hero = () => {
 
     var settings = {
-        dots:false,
+        dots:true,
         infinte:false,
         speed:800,
         slidesToScroll:1,
-        autoplay:true,
+        autoplay:false,
         autoplaySpeed:4000,
         cssEase:"ease-in-out",
-        pauseOnHover:false,
+        pauseOnHover:true,
         pauseOnFocus:true,
     };
 
